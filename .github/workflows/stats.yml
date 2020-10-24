@@ -1,7 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
 name: CI
-# 3fa926f27338a462d4063ef8f1a6cf693aa541df
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
@@ -25,6 +24,6 @@ jobs:
       - name: profile-readme-stats
         uses: teoxoy/profile-readme-stats@v1
         with:
-          token: 3fa926f27338a462d4063ef8f1a6cf693aa541df
+          token: e897662225c1f9e9f77106049e1986e58bb057ca
           template: '/TEMPLATE.md'
           readme: '/README.md'
